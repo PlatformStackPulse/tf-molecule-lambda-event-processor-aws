@@ -1,5 +1,14 @@
 # tf-molecule-lambda-event-processor-aws
 
+[![Terraform Format](https://img.shields.io/badge/terraform-fmt-blue?logo=terraform)](https://github.com/PlatformStackPulse/tf-molecule-lambda-event-processor-aws/actions)
+[![Terraform Validate](https://img.shields.io/badge/terraform-validate-blue?logo=terraform)](https://github.com/PlatformStackPulse/tf-molecule-lambda-event-processor-aws/actions)
+[![TFLint](https://img.shields.io/badge/tflint-passing-brightgreen?logo=terraform)](https://github.com/PlatformStackPulse/tf-molecule-lambda-event-processor-aws/actions)
+[![Terraform Test](https://img.shields.io/badge/tests-2%20passed-brightgreen?logo=terraform)](https://github.com/PlatformStackPulse/tf-molecule-lambda-event-processor-aws/actions)
+[![Security Scan](https://img.shields.io/badge/trivy-passing-brightgreen?logo=aqua)](https://github.com/PlatformStackPulse/tf-molecule-lambda-event-processor-aws/actions)
+[![Conventional Commits](https://img.shields.io/badge/commits-conventional-blue?logo=conventionalcommits)](https://conventionalcommits.org)
+[![Documentation](https://img.shields.io/badge/docs-terraform--docs-blue?logo=readthedocs)](https://github.com/PlatformStackPulse/tf-molecule-lambda-event-processor-aws/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue?logo=opensourceinitiative)](LICENSE)
+
 Terraform molecule that provisions a complete event-driven Lambda processor on AWS: a Lambda function, a version alias for safe deployments, an event source mapping (SQS / DynamoDB Streams / Kinesis), a function URL for direct invocation, and a dedicated CloudWatch log group.
 
 ## Features
